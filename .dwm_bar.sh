@@ -66,11 +66,11 @@ netstat() {
 }
 
 status(){
-        echo "$(cpu) | $(mem) | $(kernel) | $(hdd) | $(dte)"
+        echo "$(cpu) | $(mem) | $(hdd) |$(dte)"
 }
 
 
 while true; do
 	xsetroot -name "$(status)"
-	sleep 10s 
+	sleep 3 
 done
