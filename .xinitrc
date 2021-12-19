@@ -3,6 +3,6 @@ feh --bg-scale ~/wallpaper.jpeg &
 picom -b
 flameshot &
 
-./.dwm_bar.sh &
+~/.dwm_bar.sh &
 
 exec dwm
